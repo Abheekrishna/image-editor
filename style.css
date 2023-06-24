@@ -68,3 +68,18 @@ footer {
 a {
     color: black;
 }
+@media only screen and (max-width: 600px) {
+    body {
+        margin-top: 20px;
+    }
+    .img {
+        width: 400px;
+    }
+    .image-editor {
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+    .inputs {
+        grid-row: 2 / 2;
+    }
+}
