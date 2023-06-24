@@ -4,6 +4,7 @@ const contrast = document.getElementById('contrast');
 const saturate = document.getElementById('saturate');
 const hue = document.getElementById('hue');
 const resetBtn = document.getElementById('reset');
+const year = document.getElementById('year');
 
 
 
@@ -33,3 +34,6 @@ function removeFilter() {
 }
 
 resetBtn.addEventListener('click', removeFilter)
+
+const newYear = (new Date()).getFullYear();
+year.innerText = newYear;
