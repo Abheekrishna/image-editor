@@ -8,32 +8,39 @@
 </head>
 <body>
     <div class="container">
-        <div class="image-div">
-            <img id="image" class="img" src="./images/image.jpg" alt="">
-        </div>
-
-        <div class="inputs">
+        <div class="image-editor">
+            <div class="inputs">
+                <div class="input-cont">
+                    <p class="label">Brightness</p>
+                    <input id="brightness" min="0" max="500" value="100" class="slider" type="range">
+            </div>
+    
             <div class="input-cont">
-                <p class="label">Brightness</p>
-                <input id="brightness" min="0" max="500" value="100" class="slider" type="range">
-        </div>
+                <p class="label">Contrast</p>
+                <input id="contrast" min="50" max="500" value="100" class="slider" type="range">
+            </div>
+    
+            <div class="input-cont">
+                <p class="label">Saturate</p>
+                <input id="saturate" min="0" max="500" value="100" class="slider" type="range">
+            </div>
+    
+            <div class="input-cont">
+                <p class="label">Hue</p>
+                <input id="hue" min="0" max="500" value="0" class="slider" type="range">
+            </div>
+            
+            </div>
 
-        <div class="input-cont">
-            <p class="label">Contrast</p>
-            <input id="contrast" min="50" max="500" value="100" class="slider" type="range">
-        </div>
 
-        <div class="input-cont">
-            <p class="label">Saturate</p>
-            <input id="saturate" min="0" max="500" value="100" class="slider" type="range">
-        </div>
+            <div class="image-div">
+                <img id="image" class="img" src="./images/image.jpg" alt="">
+            </div>
 
-        <div class="input-cont">
-            <p class="label">Hue</p>
-            <input id="hue" min="0" max="500" value="0" class="slider" type="range">
         </div>
         
-        </div>
+
+        
 
         <button type="reset" id="reset">Reset</button>
 

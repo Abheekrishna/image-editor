@@ -26,6 +26,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-right: 25px;
 }
 
 .label {
@@ -38,4 +39,25 @@
     flex-direction: column;
     justify-content: center;
     margin-top: 25px;
+}
+#reset {
+    padding: 8px 20px;
+    background-color: rgb(42, 153, 238);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+#reset:hover {
+    background-color: rgb(91, 179, 247);
+}
+.image-editor {
+    display: flex;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
