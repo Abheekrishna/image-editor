@@ -5,8 +5,11 @@ const saturate = document.getElementById('saturate');
 const hue = document.getElementById('hue');
 const resetBtn = document.getElementById('reset');
 const year = document.getElementById('year');
+const inputFile = document.getElementById('inputFile');
 
-
+inputFile.onchange = function () {
+    image.src = URL.createObjectURL(inputFile.files[0]);
+}
 
 brightness.addEventListener('input', applyFilters);
 contrast.addEventListener('input', applyFilters);

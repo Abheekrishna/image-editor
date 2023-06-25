@@ -13,12 +13,16 @@
     justify-content: center;
     margin-top: 20px;
     flex-direction: column;
+    
+    
 }
 .slider {
     width: 300px;
 }
 .img {
-    width: 600px;
+    width:  600px;
+    border: 1px solid gray;
+    object-fit: cover;
 }
 
 .inputs {
@@ -45,9 +49,10 @@
     background-color: rgb(42, 153, 238);
     color: white;
     border: none;
-    border-radius: 15px;
+    border-radius: 150px;
     margin-top: 50px;
     cursor: pointer;
+    font-size: 1.2rem;
 }
 #reset:hover {
     background-color: rgb(91, 179, 247);
@@ -61,6 +66,20 @@
     align-items: center;
     justify-content: center;
 }
+label {
+    margin-top: 25px;
+    color: #fff;
+    border: none;
+    border-radius: 150px;
+    padding: 10px 15px;
+    background-color: rgb(42, 153, 238);
+    cursor: pointer;
+}
+
+#inputFile {
+    display: none;
+}
+
 
 footer {
     margin-top: 100px;
